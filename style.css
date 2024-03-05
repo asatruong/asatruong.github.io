@@ -303,7 +303,7 @@ main {
   transition: transform 0.2s linear;
 }
 
-.project-card {
+.project__card {
     width: 20em;
 }
 
