@@ -298,10 +298,13 @@ main {
 .project {
   padding: 2em;
   margin: 0 auto;
-  width: 20em;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+}
+
+.project-card {
+    width: 20em;
 }
 
 .project:hover {
