@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    > </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Åsa Truong Portfolio</title>
+    <link rel="icon" type="image/svg" href="./pictures/favicon.svg">
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="./index.html" class="link"
+          >Åsa Truong</a
+        >
+      </h3>
 
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="./index.html#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="./index.html#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1 class="about__name">Golfhandelen.no</h1>
+        <h2 class="about__role">Re-Designing Website</h2>
+        <a href="https://www.golfhandelen.no/">Golfhandelen.no</a>
+        <p class="about__desc">
+            For this project I was re-designing Golfhandelen.no to a more user-friendly e-commerce golf website. I conducted a comparative analysis where I listed positive and the negative features of other golf websites. 
+            With this information I could gather features and looks that I wanted to implement to the new website.
+          However, being introduced to Golfhandelens
+          e-commerce platform: Askås, we quickly realized we were limited with the visual design and the UI-design that was created.
+          Although we were limited, we tried our best to implement some parts of the UI-design created in Figma.
+             </p>
+        
+            <p class="about__desc">
+          It was a learning curve that it is not always possible that the design will turn out as you would want it to. What is important though, is
+          that our customer was happy with the design and made it easier for their customers to buy their equipments. 
+          
+          I was and am also in charge of re-making their banners (for website and also Facebook page) and visual aspects to fit their new design, using Illustrator and Photoshop.
+       
+            </p>
+  
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+
+        <div class="projects__grid">
+          <div class="project">
+            <ul class="project__stack">
+                <li class="project__stack-item">Re-Design</li>
+                <li class="project__stack-item">Figma</li>
+                <li class="project__stack-item">UX/UI</li>
+                <li class="project__stack-item">Hi-fi Prototype</li>
+              <li class="project__stack-item">Photoshop/Illustrator</li>
+              </ul>
+              <figure>
+            <img src="./pictures/golfhandelen.no.png" width="590px" height="400px">
+            <img src="./pictures/golfhandelen 3.png" width="400px" height="250px">
+            <figcaption class="project__description">Landing page.</figcaption>
+            <img src="./pictures/golfhandelen 4.png" width="700px" height="450px">
+            <figcaption class="project__description">Figma link can be provided.</figcaption>
+          </figure>           
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+       <p>Phone Number: +47 91 92 58 78</p>
+       <p>Mail: <a class="link" href="mailto:asatruong@hotmail.com">asatruong@hotmail.com</a></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+  
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
