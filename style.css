@@ -86,6 +86,19 @@ h4 {
   font-size: 1.3rem;
 }
 
+.projectHeadline {
+  font-size: 25px;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 1em;
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  text-align: left;
+  padding: 2em;
+}
+
 ul {
   list-style-type: none;
 }
